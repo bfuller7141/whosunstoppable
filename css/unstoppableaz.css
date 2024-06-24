@@ -2071,6 +2071,9 @@ li {
   }
 }
 
+sub-title.purple {
+  color: var(--purple);}
+
 #w-node-bd432133-64e7-ceec-1871-ecc11b428cc9-56e0f3dc {
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
