@@ -1342,6 +1342,10 @@ li {
 
 .dropdown-list-2.w--open {
   background-color: rgba(221, 221, 221, 0);
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
   position: absolute;
 }
 
@@ -1677,7 +1681,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     padding: 7rem 2.5rem 5rem 2rem;
-    display: block;
+    display: none;
     position: absolute;
     top: 2.75rem;
     bottom: auto;
