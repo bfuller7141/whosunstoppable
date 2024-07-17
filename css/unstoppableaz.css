@@ -557,6 +557,10 @@ li {
   padding-right: 5px;
 }
 
+.section-title.white {
+  font-size: 2.25rem;
+}
+
 .divider-small {
   background-color: var(--yellow);
   width: 10rem;
@@ -1359,6 +1363,24 @@ li {
   margin-right: 0;
 }
 
+.location {
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.location:hover {
+  color: var(--yellow);
+}
+
+.text-block {
+  line-height: 1;
+}
+
 @media screen and (min-width: 1280px) {
   .header-main {
     padding-top: 14rem;
@@ -1892,6 +1914,14 @@ li {
   .wrapper-logos.no-padding {
     grid-template-columns: 1fr;
   }
+
+  .location {
+    margin-top: 1rem;
+  }
+
+  .text-block {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2076,6 +2106,10 @@ li {
     width: 100%;
     min-width: auto;
     max-width: none;
+  }
+
+  .text-block {
+    font-size: 1.25rem;
   }
 }
 
