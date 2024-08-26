@@ -1397,6 +1397,11 @@ li {
   margin-top: 1rem;
 }
 
+.image-small {
+  max-width: 50%;
+  margin-top: 1rem;
+}
+
 @media screen and (min-width: 1280px) {
   .header-main {
     padding-top: 14rem;
@@ -1543,6 +1548,16 @@ li {
 
   .image.l-align {
     object-position: 85% 50%;
+  }
+
+  .wrapper-grid.padding-top {
+    grid-column-gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .wrapper-grid.padding-bottom {
+    grid-template-rows: auto;
+    margin-bottom: 1.5rem;
   }
 
   .tab-link {
@@ -1931,6 +1946,10 @@ li {
 
   .text-block {
     font-size: 1.5rem;
+  }
+
+  .image-small {
+    max-width: 100%;
   }
 }
 
