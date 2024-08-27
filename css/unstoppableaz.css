@@ -863,6 +863,7 @@ li {
 
 .wrapper-grid.padding-top._4 {
   grid-template-columns: 1fr;
+  margin-bottom: 1.5rem;
 }
 
 .wrapper-grid.athletes {
@@ -875,6 +876,12 @@ li {
   grid-template-columns: 1fr 1fr;
   width: 100%;
   margin-top: 2rem;
+}
+
+.wrapper-grid.padding-bottom {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  margin-bottom: 1.5rem;
 }
 
 .rules-top {
@@ -1438,7 +1445,7 @@ li {
     grid-template-columns: 1fr 1fr;
   }
 
-  .gallery-grid {
+  .wrapper-grid.padding-bottom, .gallery-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
