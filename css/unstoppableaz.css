@@ -8,13 +8,13 @@
   --light-yellow: #e9cd8a;
   --white-yellow: #f7eed3;
   --purple-40: #3f284e;
+  --white-40: #a6a8aa;
   --card: #ffffff4d;
   --light-purple: #a689bb;
   --white-20: #d0d1d3;
   --yellow-20: #b5943d;
   --yellow-40: #90782f;
   --white-purple: #dbd0e5;
-  --white-40: #a6a8aa;
 }
 
 .w-form-formrecaptcha {
@@ -504,6 +504,16 @@ li {
   margin-top: 2rem;
 }
 
+.button-primary.purple.inactive {
+  background-color: var(--white-40);
+  cursor: not-allowed;
+}
+
+.button-primary.purple.inactive:hover {
+  color: var(--white);
+  background-image: none;
+}
+
 .button-primary.center {
   margin-top: 3rem;
   margin-left: auto;
@@ -687,6 +697,10 @@ li {
   font-size: 2rem;
 }
 
+.title-small.inactive {
+  color: var(--white-40);
+}
+
 .paragraph.white {
   color: var(--white);
 }
@@ -810,6 +824,10 @@ li {
 
 .sub-title.purple {
   color: var(--purple);
+}
+
+.sub-title.inactive {
+  color: var(--white-40);
 }
 
 .image-wrapper {
