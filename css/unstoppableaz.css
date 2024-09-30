@@ -666,6 +666,10 @@ li {
 
 .title-small.white {
   color: var(--white);
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .title-small.white.feature {
