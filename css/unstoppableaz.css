@@ -298,7 +298,7 @@ li {
 }
 
 .js-clock.event {
-  margin-top: 2rem;
+  margin-top: .5rem;
 }
 
 .clock-box {
@@ -1426,6 +1426,10 @@ li {
 
 .text-block {
   line-height: 1;
+}
+
+.text-block.home {
+  margin-bottom: 2rem;
 }
 
 .yellow {
