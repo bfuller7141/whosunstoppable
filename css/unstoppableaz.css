@@ -2321,10 +2321,6 @@ li {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-#w-node-b46a9869-ff0d-70ff-6e9b-f5476a8a6459-ea059978, #w-node-b46a9869-ff0d-70ff-6e9b-f5476a8a646e-ea059978 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
 @media screen and (min-width: 1440px) {
   #awards.w-node-_8f70dc78-7e60-35fb-eaf3-4a38b1ce93ea-43b56cd2 {
     align-self: center;
