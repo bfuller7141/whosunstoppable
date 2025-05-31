@@ -497,6 +497,7 @@ li {
   background-color: var(--purple-20);
   color: var(--white);
   transition-property: none;
+  display: inline;
 }
 
 .button-primary.purple:hover {
@@ -757,7 +758,7 @@ li {
   justify-content: space-between;
   align-items: center;
   margin-top: 2.5rem;
-  display: grid;
+  display: block;
 }
 
 .card {
@@ -2283,7 +2284,7 @@ li {
   align-self: start;
 }
 
-#w-node-_40755a7e-04d3-db27-db44-9fa81dda12a0-56e0f3dc, #w-node-_9a33a601-1d17-4a70-3f2b-324c2eac604d-56e0f3dc, #w-node-a804cc4b-a7ea-b502-252f-6e2e39bf055d-56e0f3dc {
+#w-node-_40755a7e-04d3-db27-db44-9fa81dda12a0-56e0f3dc {
   align-self: center;
 }
 
@@ -2320,7 +2321,7 @@ li {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-a33c1629-3949-d190-326d-89caa794edcf-a794edc6, #w-node-a33c1629-3949-d190-326d-89caa794edd9-a794edc6, #w-node-a33c1629-3949-d190-326d-89caa794ede3-a794edc6 {
+#w-node-a33c1629-3949-d190-326d-89caa794edcf-a794edc6 {
   align-self: center;
 }
 
