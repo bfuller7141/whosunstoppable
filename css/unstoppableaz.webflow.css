@@ -562,6 +562,9 @@ li {
 }
 
 .button-primary.margin-bottom {
+  width: 100%;
+  max-width: 20rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -679,6 +682,7 @@ li {
   font-family: Montserrat, sans-serif;
   font-style: italic;
   font-weight: 600;
+  line-height: 1;
 }
 
 .title-small.white.feature {
