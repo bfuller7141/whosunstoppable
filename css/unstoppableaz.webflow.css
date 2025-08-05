@@ -561,6 +561,10 @@ li {
   margin-top: 2rem;
 }
 
+.button-primary.margin-bottom {
+  margin-bottom: 2rem;
+}
+
 .wrapper.divider {
   border-right: 2px none var(--purple);
   border-bottom: 2px none var(--purple-20);
@@ -2108,7 +2112,7 @@ li {
     width: 100%;
   }
 
-  .wrapper {
+  .button-primary.nav, .wrapper {
     max-width: 100%;
   }
 
@@ -2132,6 +2136,10 @@ li {
 
   .feature-icon {
     width: 3rem;
+  }
+
+  .title-small.white {
+    line-height: 1;
   }
 
   .title-small.white.feature {
