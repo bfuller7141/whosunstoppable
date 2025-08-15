@@ -2210,6 +2210,7 @@ li {
     transform-origin: 100% 0;
     padding-left: 1rem;
     padding-right: 1.5rem;
+    display: none;
   }
 
   .mobile-menu-item:lang(en) {
