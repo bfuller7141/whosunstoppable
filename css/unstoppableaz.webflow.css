@@ -83,7 +83,7 @@ p {
   font-family: Montserrat, sans-serif;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 a {
@@ -1343,6 +1343,7 @@ li {
 
 .rich-text-block {
   margin-bottom: 2rem;
+  line-height: 28px;
 }
 
 .division-title {
@@ -1502,6 +1503,10 @@ li {
   flex-direction: column;
   width: 260px;
   display: flex;
+}
+
+.paragraph-7 {
+  margin-bottom: .75rem;
 }
 
 @media screen and (min-width: 1280px) {
