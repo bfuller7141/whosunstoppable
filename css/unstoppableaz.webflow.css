@@ -206,6 +206,17 @@ li {
   font-size: 4rem;
 }
 
+.title-page.event {
+  color: var(--purple-20);
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.title-page.event.small {
+  font-size: 2.5rem;
+}
+
 .title-page.yellow-gradient {
   background-image: linear-gradient(180deg, var(--yellow) 10%, var(--light-yellow));
   -webkit-text-fill-color: transparent;
@@ -693,6 +704,13 @@ li {
   font-size: 1.3rem;
 }
 
+.title-small.center.bold {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 800;
+}
+
 .title-small.price {
   margin-top: .5rem;
   margin-bottom: .5rem;
@@ -891,6 +909,7 @@ li {
 
 .event-label {
   color: var(--purple-20);
+  text-align: center;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   font-size: 1.25rem;
@@ -1507,6 +1526,17 @@ li {
 
 .paragraph-7 {
   margin-bottom: .75rem;
+}
+
+.div-center {
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.paragraph-8 {
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
