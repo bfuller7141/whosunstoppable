@@ -191,7 +191,8 @@
           <h2 class="section-title center">Become A Vendor</h2>
           <div class="divider-small"></div>
           <div bind="80080645-68b1-c799-b754-db7b086a65a1" class="form-block w-form">
-            <form id="wf-form-Vendor-Form" name="wf-form-Vendor-Form-2" data-name="Vendor Form" action="/#" method="post" data-netlify="true" class="form" data-wf-page-id="65fe51ed0b89753c9fec1bd2" data-wf-element-id="80080645-68b1-c799-b754-db7b086a65a2">
+            <form id="wf-form-Vendor-Form" name="wf-form-Vendor-Form-2" data-name="Vendor Form" action="/#" method="post" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" class="form" data-wf-page-id="65fe51ed0b89753c9fec1bd2" data-wf-element-id="80080645-68b1-c799-b754-db7b086a65a2">
+              <p hidden><label>Don’t fill this out: <input name="bot-field"></label></p>
               <div class="form-wrapper horizontal">
                 <div class="wrapper"><label for="Last-Name" class="field-label">Last Name</label><input class="form-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Miller" type="text" id="Last-Name" required=""></div>
                 <div id="w-node-_80080645-68b1-c799-b754-db7b086a65a8-9fec1bd2" class="wrapper"><label for="First-Name" class="field-label">First Name</label><input class="form-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="John" type="text" id="First-Name" required=""></div>
@@ -202,7 +203,7 @@
               <div class="form-wrapper">
                 <div class="wrapper"><label for="Additional-Information" class="field-label">Additional Information</label><textarea id="Additional-Information" name="Additional-Information" maxlength="5000" data-name="Additional Information" placeholder="Please provide any additional information..." class="form-field area w-input"></textarea></div>
               </div>
-              <div class="w-form-formrecaptcha g-recaptcha g-recaptcha-error g-recaptcha-disabled g-recaptcha-invalid-key"></div><input type="submit" data-wait="Please wait..." class="button-primary submit w-button" value="Submit">
+              <div data-netlify-recaptcha="true"></div><input type="submit" data-wait="Please wait..." class="button-primary submit w-button" value="Submit">
             </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
