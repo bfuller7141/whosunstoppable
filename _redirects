@@ -1,1 +1,16 @@
 /events/2024-preseason-tournament  /preseason-tournament  301
+
+# Common scanner and exploit probes -> lightweight 410 response
+/wp-admin/*                         /bot-blocked.txt  410!
+/wp-content/*                       /bot-blocked.txt  410!
+/wp-includes/*                      /bot-blocked.txt  410!
+/wp-login.php                       /bot-blocked.txt  410!
+/xmlrpc.php                         /bot-blocked.txt  410!
+/phpmyadmin/*                       /bot-blocked.txt  410!
+/administrator/*                    /bot-blocked.txt  410!
+/.env                               /bot-blocked.txt  410!
+/.git/*                             /bot-blocked.txt  410!
+/vendor/*                           /bot-blocked.txt  410!
+/cgi-bin/*                          /bot-blocked.txt  410!
+/HNAP1                              /bot-blocked.txt  410!
+/boaform/admin/formLogin            /bot-blocked.txt  410!
