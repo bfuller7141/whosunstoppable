@@ -1,13 +1,13 @@
 :root {
-  --purple-20: #8E0D3A;
+  --purple-20: #5F1931;
   --black: #1a1a1a;
   --purple: #8E0D3A;
   --yellow: #FFC424;
-  --purple-80: #8E0D3A;
+  --purple-80: #2F0613;
   --white: white;
   --light-yellow: #FFD968;
   --white-yellow: #FFF3CF;
-  --purple-40: #8E0D3A;
+  --purple-40: #471020;
   --white-40: #a6a8aa;
   --card: #ffffff4d;
   --light-purple: #B84C72;
@@ -123,7 +123,7 @@ li {
 
 .header-main {
   background-color: var(--purple-80);
-  background-image: linear-gradient(#8E0D3Ab3, #8E0D3A 93%), url('../images/home-hero.webp');
+  background-image: linear-gradient(#2F0613b3, #2F0613 93%), url('../images/home-hero.webp');
   background-position: 0 0, 100% 20%;
   background-repeat: repeat, no-repeat;
   padding-top: 13rem;
@@ -418,7 +418,7 @@ li {
 }
 
 .section-main.purple.bg-image {
-  background-image: linear-gradient(180deg, var(--purple-80), #8E0D3A4d 50%, var(--purple-80)), url('../images/anthony-robles_background-edit.png');
+  background-image: linear-gradient(180deg, var(--purple-80), #2F06134d 50%, var(--purple-80)), url('../images/anthony-robles_background-edit.png');
   background-position: 0 0, -150px 0;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto;
@@ -1769,7 +1769,7 @@ li {
   }
 
   .section-main.purple.bg-image {
-    background-image: linear-gradient(180deg, var(--purple-80), #8E0D3A4d 50%, var(--purple-80)), url('../images/anthony-robles_background-edit.png');
+    background-image: linear-gradient(180deg, var(--purple-80), #2F06134d 50%, var(--purple-80)), url('../images/anthony-robles_background-edit.png');
     background-position: 0 0, -150px 0;
     background-repeat: repeat, no-repeat;
     background-size: auto, auto;
