@@ -1,20 +1,20 @@
 :root {
-  --purple-20: #543567;
+  --purple-20: #5F1931;
   --black: #1a1a1a;
-  --purple: #804fa0;
-  --yellow: #ddb249;
-  --purple-80: #2c0d37;
+  --purple: #8E0D3A;
+  --yellow: #FFC424;
+  --purple-80: #2F0613;
   --white: white;
-  --light-yellow: #e9cd8a;
-  --white-yellow: #f7eed3;
-  --purple-40: #3f284e;
+  --light-yellow: #FFD968;
+  --white-yellow: #FFF3CF;
+  --purple-40: #471020;
   --white-40: #a6a8aa;
   --card: #ffffff4d;
-  --light-purple: #a689bb;
+  --light-purple: #B84C72;
   --white-20: #d0d1d3;
-  --yellow-20: #b5943d;
-  --yellow-40: #90782f;
-  --white-purple: #dbd0e5;
+  --yellow-20: #D9A000;
+  --yellow-40: #A87900;
+  --white-purple: #F1D6E0;
 }
 
 .w-form-formrecaptcha {
@@ -123,7 +123,7 @@ li {
 
 .header-main {
   background-color: var(--purple-80);
-  background-image: linear-gradient(#2c0d37b3, #2c0d37 93%), url('../images/home-hero.webp');
+  background-image: linear-gradient(#2F0613b3, #2F0613 93%), url('../images/home-hero.webp');
   background-position: 0 0, 100% 20%;
   background-repeat: repeat, no-repeat;
   padding-top: 13rem;
@@ -407,7 +407,7 @@ li {
 }
 
 .section-main.purple.bg-image {
-  background-image: linear-gradient(180deg, var(--purple-80), #2c0d374d 50%, var(--purple-80)), url('../images/anthony-robles_background-edit.png');
+  background-image: linear-gradient(180deg, var(--purple-80), #2F06134d 50%, var(--purple-80)), url('../images/anthony-robles_background-edit.png');
   background-position: 0 0, -150px 0;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto;
@@ -1670,7 +1670,7 @@ li {
   }
 
   .section-main.purple.bg-image {
-    background-image: linear-gradient(180deg, var(--purple-80), #2c0d37cc 50%, var(--purple-80)), url('../images/anthony-robles_background-edit.png');
+    background-image: linear-gradient(180deg, var(--purple-80), #2F06134d 50%, var(--purple-80)), url('../images/anthony-robles_background-edit.png');
     background-position: 0 0, -150px 0;
     background-repeat: repeat, no-repeat;
     background-size: auto, auto;
