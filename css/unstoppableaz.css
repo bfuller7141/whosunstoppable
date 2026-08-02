@@ -1351,11 +1351,18 @@ li {
   grid-column-gap: 1.25rem;
   grid-row-gap: 1.25rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
   margin: 2rem 0 2.5rem;
   display: grid;
 }
 
 .w-richtext .division-card {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
   border: 1px solid #5f193129;
   border-radius: .75rem;
   background-color: var(--white);
@@ -1364,6 +1371,9 @@ li {
 }
 
 .division-card-header {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
   min-height: 11.5rem;
   border-bottom: 1px solid #5f193129;
   padding: 1.5rem;
@@ -1397,6 +1407,8 @@ li {
 }
 
 .w-richtext .division-award {
+  box-sizing: border-box;
+  max-width: 100%;
   color: var(--purple-80);
   background-color: var(--yellow);
   border-radius: 100px;
@@ -1405,6 +1417,7 @@ li {
   font-size: .72rem;
   font-weight: 800;
   line-height: 1.2;
+  flex-wrap: wrap;
   display: inline-flex;
 }
 
@@ -1417,10 +1430,15 @@ li {
 
 .division-columns {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  min-width: 0;
+  max-width: 100%;
   display: grid;
 }
 
 .division-coed {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
   border-bottom: 1px solid #5f193129;
   padding: 1.35rem 1.5rem 1.5rem;
 }
@@ -1439,6 +1457,8 @@ li {
 .division-coed-groups {
   grid-column-gap: 1.5rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  min-width: 0;
+  max-width: 100%;
   display: grid;
 }
 
@@ -1494,6 +1514,7 @@ li {
   font-size: .86rem;
   font-weight: 600;
   line-height: 1.75;
+  overflow-wrap: anywhere;
 }
 
 .weight-list strong {
@@ -1538,10 +1559,11 @@ li {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
   .division-grid {
-    margin-left: -.5rem;
-    margin-right: -.5rem;
+    grid-template-columns: minmax(0, 1fr);
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .division-columns {
@@ -2117,6 +2139,22 @@ li {
   .padding-global {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .wrapper-tickets.vertical,
+  .card.tickets.vertical,
+  .card.tickets.vertical > * {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .card.tickets.vertical .title-small.price {
+    max-width: 100%;
+    font-size: clamp(1.75rem, 9vw, 2.5rem);
+    line-height: 1.05;
+    overflow-wrap: anywhere;
   }
 
   .title-page.white {
