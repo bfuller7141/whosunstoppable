@@ -1347,6 +1347,218 @@ li {
   text-decoration: none;
 }
 
+.division-grid {
+  grid-column-gap: 1.25rem;
+  grid-row-gap: 1.25rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 2rem 0 2.5rem;
+  display: grid;
+}
+
+.w-richtext .division-card {
+  border: 1px solid #5f193129;
+  border-radius: .75rem;
+  background-color: var(--white);
+  box-shadow: 0 12px 30px #2f061314;
+  overflow: hidden;
+}
+
+.division-card-header {
+  min-height: 11.5rem;
+  border-bottom: 1px solid #5f193129;
+  padding: 1.5rem;
+}
+
+.w-richtext .division-card-kicker {
+  color: var(--purple);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin: 0 0 .3rem;
+  font-size: .75rem;
+  font-weight: 800;
+}
+
+.w-richtext .division-card h3 {
+  color: var(--purple-80);
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 1.05;
+}
+
+.w-richtext .division-card-note {
+  color: var(--purple-20);
+  min-height: 2.75rem;
+  margin: .6rem 0 1rem;
+  font-size: .9rem;
+  line-height: 1.45;
+}
+
+.w-richtext .division-award {
+  color: var(--purple-80);
+  background-color: var(--yellow);
+  border-radius: 100px;
+  margin: 0;
+  padding: .45rem .75rem;
+  font-size: .72rem;
+  font-weight: 800;
+  line-height: 1.2;
+  display: inline-flex;
+}
+
+.division-award span {
+  border-left: 1px solid #2f06133d;
+  margin-left: .5rem;
+  padding-left: .5rem;
+  font-weight: 600;
+}
+
+.division-columns {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: grid;
+}
+
+.division-coed {
+  border-bottom: 1px solid #5f193129;
+  padding: 1.35rem 1.5rem 1.5rem;
+}
+
+.w-richtext .division-coed h4 {
+  color: var(--purple-20);
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--yellow);
+  margin: 0 0 1rem;
+  padding-bottom: .55rem;
+  font-size: .8rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.division-coed-groups {
+  grid-column-gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: grid;
+}
+
+.division-coed-groups .weight-group + .weight-group {
+  margin-top: 0;
+}
+
+.division-column {
+  min-width: 0;
+  padding: 1.35rem 1.5rem 1.5rem;
+}
+
+.division-column + .division-column {
+  border-left: 1px solid #5f193129;
+}
+
+.w-richtext .division-column h4 {
+  color: var(--purple-20);
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--yellow);
+  margin: 0 0 1rem;
+  padding-bottom: .55rem;
+  font-size: .8rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.division-column h4 span {
+  text-transform: none;
+  font-size: .68rem;
+  font-weight: 600;
+}
+
+.weight-group + .weight-group {
+  margin-top: 1.25rem;
+}
+
+.w-richtext .weight-label {
+  color: var(--white);
+  background-color: var(--purple-20);
+  border-radius: .25rem;
+  margin: 0 0 .55rem;
+  padding: .3rem .55rem;
+  font-size: .75rem;
+  font-weight: 800;
+  line-height: 1;
+  display: inline-block;
+}
+
+.w-richtext .weight-list {
+  color: var(--purple-80);
+  margin: 0;
+  font-size: .86rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+.weight-list strong {
+  color: var(--purple);
+  white-space: nowrap;
+}
+
+.weight-list strong span {
+  font-size: .7rem;
+}
+
+.division-column-empty {
+  color: var(--white-40);
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 7px, #5f193108 7px, #5f193108 14px);
+}
+
+.w-richtext .division-column-empty p {
+  margin: 0;
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.division-column-notice {
+  color: var(--purple-20);
+  background-color: var(--white-purple);
+}
+
+.w-richtext .division-column-notice p {
+  margin: 0;
+  font-size: .86rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 991px) {
+  .division-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .division-card-header {
+    min-height: 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .division-grid {
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+  }
+
+  .division-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .division-coed-groups {
+    grid-row-gap: 1.25rem;
+    grid-template-columns: 1fr;
+  }
+
+  .division-column + .division-column {
+    border-top: 1px solid #5f193129;
+    border-left: 0;
+  }
+}
+
 .link-block {
   justify-content: center;
   align-items: center;
@@ -2379,5 +2591,3 @@ li {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
-
-
