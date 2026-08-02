@@ -9,10 +9,10 @@
   X-Permitted-Cross-Domain-Policies: none
 
 /css/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=0, must-revalidate
 
 /js/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=0, must-revalidate
 
 /images/*
   Cache-Control: public, max-age=2592000
@@ -22,7 +22,7 @@
   Cache-Control: public, max-age=2592000
 
 /events/*
-  Cache-Control: public, max-age=2592000
+  Cache-Control: public, max-age=0, must-revalidate
 
 /favicon.ico
   Cache-Control: public, max-age=2592000
