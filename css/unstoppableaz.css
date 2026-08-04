@@ -870,7 +870,7 @@ li {
 }
 
 .event-block.middle {
-  border-right: 2px solid var(--purple-20);
+  border-right: 0;
   border-left: 2px solid var(--purple-20);
   padding-left: 2rem;
   padding-right: 2rem;
